@@ -10,7 +10,7 @@ END FSM_testbench;
 ARCHITECTURE behavior OF FSM_testbench IS 
 
 	file inputfile : text open read_mode  is "Midterm2.in";
-	file outputfile : text open write_mode  is "Swathi_Sowmya_HW6_2.out";
+	file outputfile : text open write_mode  is "Midterm_2.out";
  
 	-- Component Declaration for the Unit Under Test (UUT)
 	COMPONENT FSM_design
